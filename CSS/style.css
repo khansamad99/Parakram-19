@@ -1,0 +1,120 @@
+body{
+    font-family: 'Mada', sans-serif;
+    margin:0;
+	padding: 0;
+	--color-title: #fff;
+	
+}
+section{
+	background: rgba(145, 2, 2, 0.3);
+}
+.parakram{
+	font-family: 'Cinzel', serif;
+	font-size: 700%;
+	color: black;
+}
+p{
+ font-size:300%;
+ font-family: 'Mada', sans-serif;
+ text-align:center;
+ color:black;
+}
+h2{
+	text-align:center;
+	font-family:'Cinzel',sans-serif;
+	color:black;
+}
+.banner{
+    width: 100%;
+    height:100vh;
+    overflow:hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+    
+}
+.banner video{
+    position: absolute;
+    top:0;
+    left:0;
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+    filter:opacity(40%);
+    background: rgba(61, 2, 2, 0.3)
+}
+.banner .content{
+    position:relative;
+    z-index: -1;
+    max-width:1000px;
+    margin:0 auto;
+    text-align:center;
+}
+/* reset css 
+*/
+.vertical {
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	
+	-ms-transform: translateX(-50%) translateY(-50%);
+	transform: translateX(-50%) translateY(-50%);
+}
+img {
+	-ms-interpolation-mode: nearest-neighbor;
+
+	image-rendering: -moz-crisp-edges;
+	image-rendering: -o-crisp-edges;
+	image-rendering: -webkit-optimize-contrast;
+	image-rendering: crisp-edges;
+}
+@media (min-width: 992px){ 
+	.navbar .container{
+		width: 768px;
+	}
+}
+.outerv{
+	position: fixed;
+	top: 0;
+	left: 0;
+	height: 100%;
+	width:100%;
+}
+.outerd{
+	margin-top: 0%;
+	padding: 0px;
+    text-align: center;
+    opacity: 2.0;
+    
+}
+.navbar{
+	z-index: 100;
+	position:absolute;
+	display: inline-block;
+	background: linear-gradient(to right, rgba(70, 70, 71, 0.6), rgba(73, 71, 71, 0.6)) !important;
+	border-radius: 2px;
+}
+.navbar li{
+	color: white;
+	cursor: pointer;
+}
+@media (min-width: 768px){
+	.navbar-center{
+		position: absolute;
+		left: 98%;
+		transform: translatex(-105%);
+		width: 75%;
+	}
+	.navbar-center li{
+		width: 20% !important;
+	}
+	.navbar{
+		height: 60px;
+		font-size: 1.4em;
+	}
+}
+a:hover{
+	background: #D7D6D6 !important;
+	color: #723D46 !important;
+}
