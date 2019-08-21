@@ -5,19 +5,22 @@ body{
 	--color-title: #fff;
 	
 }
+.team{
+	background-color:rgb(230, 230, 230);
+}
 section{
 	background: rgba(145, 2, 2, 0.3);
 }
 .parakram{
 	font-family: 'Cinzel', serif;
 	font-size: 700%;
-	color: black;
+	color: rgb(173, 6, 6);
 }
-p{
+.desc{
  font-size:300%;
  font-family: 'Mada', sans-serif;
  text-align:center;
- color:black;
+ color:red;
 }
 h2{
 	text-align:center;
@@ -115,6 +118,6 @@ img {
 	}
 }
 a:hover{
-	background: #D7D6D6 !important;
+	background: black !important;
 	color: #723D46 !important;
 }
