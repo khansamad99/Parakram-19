@@ -65,6 +65,15 @@ h2{
 	-ms-transform: translateX(-50%) translateY(-50%);
 	transform: translateX(-50%) translateY(-50%);
 }
+.im{
+	min-width: 120px;
+	position: relative;
+	margin-top: 2%;
+	padding-right: 3%;
+	height:200px;
+	width:auto;
+	transform:translateX(100%) translateY(-90%);
+}
 img {
 	-ms-interpolation-mode: nearest-neighbor;
 
@@ -164,26 +173,15 @@ a:hover{
 	color: #D7D6D6;
 }
 .main a{
-	background: linear-gradient(to right, #41658a, #723d46) !important;
 	background-size: 600% 600%;
 	color: #D7D6D6 !important;
 	/*animation: backgroundg 9s ease infinite;*/
 }
 .main a:hover{
-	background: #D7D6D6 !important;
-	color: #723D46 !important;
+	background: black !important;
+	color: rgb(245, 29, 29) !important;
 }
-.main #dates{
-	color: #70A37F;
-}
-.alert{
-	display: none;
-	width: 30%;
-	margin-left: 34%;
-	font-family: 'Mada', sans-serif;
-	font-size: 1.3em;
-}
-/* form */
+/* form 
 form{
 	display: none;
 	position: fixed;
@@ -218,7 +216,7 @@ form{
 }
 .form-group .radio-inline{
 	padding-top: 0;
-}
+}*/
 @media screen and (max-width: 1366px){
 	form{
 		padding-top: 0;
@@ -408,12 +406,14 @@ form{
 		height: 75%;
 	}
 	.parakram{
+		margin-bottom:20%;
 		font-family: 'Cinzel', serif;
 		font-size: 300%;
 		color:red;
 		z-index:95;
 	}
 	.desc{
+	 margin-bottom:15%;
 	 font-size:100%;
 	 font-family: 'Mada', sans-serif;
 	 text-align:center;
