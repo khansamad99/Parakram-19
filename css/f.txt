@@ -1,0 +1,5 @@
+
+    background: #ffffff url("../img/slide1back.jpg") no-repeat fixed center;
+	background: linear-gradient(to right, rgba(114, 61, 70, 0.7), rgba(65, 101, 138, 0.7));
+    background-color: #723D46;
+    
