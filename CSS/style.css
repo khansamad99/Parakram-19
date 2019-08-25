@@ -2,14 +2,12 @@ body{
     font-family: 'Mada', sans-serif;
     margin:0;
 	padding: 0;
-	--color-title: #fff;
+	z-index:95;
+	background: rgba(241, 0, 0, 0.945);
 	
 }
 .team{
-	background-color:rgb(230, 230, 230);
-}
-section{
-	background: rgba(190, 185, 185, 0.3);
+	background-color:rgb(216, 33, 33);
 }
 .parakram{
 	font-family: 'Cinzel', serif;
@@ -46,7 +44,7 @@ h2{
     width: 100%;
     height: 100%;
     filter:opacity(40%);
-    background: rgba(61, 2, 2, 0.3)
+    background: rgba(236, 10, 10, 0.89)
 }
 .banner .content{
     position:relative;
@@ -65,14 +63,18 @@ h2{
 	-ms-transform: translateX(-50%) translateY(-50%);
 	transform: translateX(-50%) translateY(-50%);
 }
-.im{
-	min-width: 120px;
-	position: relative;
-	margin-top: 2%;
-	padding-right: 3%;
-	height:200px;
-	width:auto;
-	transform:translateX(100%) translateY(-90%);
+.juit{
+	width:7%;
+	float:left;
+	top:20px;
+	opacity:1.2
+}
+.logo{
+	position:absolute;
+	top:120px;
+	left:450px;
+	height: 30%;
+	width:25%;
 }
 img {
 	-ms-interpolation-mode: nearest-neighbor;
@@ -405,6 +407,13 @@ form{
 		width: 50%;
 		height: 75%;
 	}
+	.logo{
+		position:absolute;
+		height: 27%;
+		width:35%;
+		top:120px;
+		left:120px;
+	}
 	.parakram{
 		margin-bottom:20%;
 		font-family: 'Cinzel', serif;
@@ -413,7 +422,7 @@ form{
 		z-index:95;
 	}
 	.desc{
-	 margin-bottom:15%;
+	 margin-bottom:5%;
 	 font-size:100%;
 	 font-family: 'Mada', sans-serif;
 	 text-align:center;
