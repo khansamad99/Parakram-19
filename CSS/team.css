@@ -1,5 +1,5 @@
 body{
-	background: #21272c;
+	background: #407eb1;
 	font-family: 'Mada', sans-serif;
 }
 h1{
@@ -351,7 +351,7 @@ main li .container{
 #team .text{
 	padding-top: 6px;
 	color: #e3dddd;
-	font-size: 1.15em;
+	font-size: 2.15em;
 	transition: height 0.3s ease-in-out;
 }
 #team .thumb:hover .text{

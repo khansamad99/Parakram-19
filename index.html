@@ -6,240 +6,14 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="shortcut icon" type="image/png" href="images/logo.png"/>
     <link rel="stylesheet" href="CSS/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Mada&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Cinzel&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="CSS/bootstrap.css">
     <link rel="stylesheet" href="CSS/icomoon.css">
     <link href="header.html" rel="import" />
     <title>Parakram</title>
-    <script> 
-        $(function(){
-          $("#header").load("header.html"); 
-        });
-        </script> 
 </head>
-<style type="text/css">
-    .embrace {
-      padding: 0em 0em;
-      font: normal 40px/50px Arial, sans-serif;
-      color: #999;
-      text-align:center;
-      margin-left:20%;
-      margin-top:44px;
-    }
-    .embrace b {
-      float: left;
-      text-align:center;
-      overflow: hidden;
-      position: relative;
-      height: 50px;
-    }
-    .embrace span1 {
-     display: inline-block;
-    color:red;
-    font-weight:900%;
-    position: relative;
-    white-space: nowrap;
-    top: 0;
-    left: 0;
-    -webkit-animation: move 3s;
-    -webkit-animation-iteration-count: infinite;
-    -webkit-animation-delay: 1s;
-    }
-    @keyframes move {
-    0%  { top: 0px; }
-    20% { top: -50px; }
-    40% { top: -100px; }
-    }
-    #sponsors
-    {
-        position: fixed;
-        perspective: 1000px;
-        /*border:2px solid white;
-        padding: 4px;*/
-        top: 80%;
-        /*font-size: 3em;*/
-    }
-    .meet-checksp{
-        position:absolute;
-        bottom:5%;
-        background:none;
-        border: 2px solid #1f1f1f;
-        width:auto;
-        padding:10px;
-        color:#1f1f1f;
-        font-weight:900;
-        font-family: 'Lato', sans-serif;
-        cursor:pointer;
-        margin-left:-138.21px;
-    }
-    SPEECH DOWN BUBBLE
-    .hvr-bubble-float-bottom {
-      display: inline-block;
-      vertical-align: middle;
-      -webkit-transform: translateZ(0);
-      transform: translateZ(0);
-      box-shadow: 0 0 1px rgba(0, 0, 0, 0);
-      -webkit-backface-visibility: hidden;
-      backface-visibility: hidden;
-      -moz-osx-font-smoothing: grayscale;
-      -webkit-transition-duration: 0.5s;
-      transition-duration: 0.5s;
-      -webkit-transition-property: transform;
-      transition-property: transform;
-    }
-    .hvr-bubble-float-bottom:before {
-      position: absolute;
-      z-index: -1;
-      content: '';
-      left: calc(50% - 10px);
-      bottom: 0;
-      border-style: solid;
-      border-width: 10px 10px 0 10px;
-      border-color: #1f1f1f transparent transparent transparent;
-      -webkit-transition-duration: 0.5s;
-      transition-duration: 0.5s;
-      -webkit-transition-property: transform;
-      transition-property: transform;
-      display:none;
-    }
-    .hvr-bubble-float-bottom:hover, .hvr-bubble-float-bottom:focus, .hvr-bubble-float-bottom:active {
-      -webkit-transform: translateY(-10px);
-      transform: translateY(-10px);
-    }
-    .hvr-bubble-float-bottom:hover:before, .hvr-bubble-float-bottom:focus:before, .hvr-bubble-float-bottom:active:before {
-      -webkit-transform: translateY(10px);
-      transform: translateY(10px);
-      display:inline-block;
-    }
-    /*SPEECH DOWN BUBBLE ENDS*/
-    .check-our-events,.reach-us-hvr,.meet-us-hvr{
-        z-index:998;
-        position:absolute;
-        left:50%;
-        bottom:5%;
-        background:#1f1f1f;
-        border: 2px solid #e1e1e1;
-        width:auto;
-        padding:10px;
-        color:#e1e1e1;
-        font-weight:900;
-        font-family: 'Lato', sans-serif;
-        cursor:pointer;
-        margin-left:-102.5px;
-    }
-    .reach-us-hvr{
-        margin-left:-78px;
-    }
-    .meet-us-hvr{
-        margin-left:-99.5px;
-    }
-    .check-our-events:before,.reach-us-hvr:before,.meet-us-hvr:before,.highlights-hvr:before{
-        border-color: #e1e1e1 transparent transparent transparent;
-    }
-    #highlight-full-screen,#team-full-screen,.wrapper{
-        height:100%;
-        width:100%;
-        margin:0;
-        padding:0;
-    }
-    .wrapper{
-        position: relative;
-    }
-    #highlight-full-screen{
-        -webkit-clip-path: polygon(0% 0%, 100% 0, 100% 28%, 54% 100%, 0% 100%);
-        clip-path: polygon(0% 0%, 100% 0, 100% 28%, 54% 100%, 0% 100%);
-        background-color: black; /* For browsers that do not support gradients */
-          background-image: linear-gradient(to bottom right,#000, #222629); /* Standard syntax (must be last) */
-          /*background-image: url("image1.jpg");*/
-    }
-    .heading-wrapper{
-        position: absolute;
-        top:30%;
-        font-size:5vw;
-        margin-left: 40px;
-    }
-    .highlight{
-        margin:40px 40px 20px 40px;
-        padding: 60px 60px 20px 60px;
-        font-family: 'Press Start 2P', cursive;
-        color:white;
-    }
-    .team{
-        font-family: 'Press Start 2P', cursive;
-        padding:60px 60px 20px 60px;
-        margin-left: 40px;
-        color: white;
-    }
-    .highlight:hover,.team:hover{
-        color:#DC143C;
-        /*color:#BEE4AF;*/
-    }
-    #team-full-screen{
-        -webkit-clip-path: polygon(54% 0, 100% 73%, 100% 100%, 0 100%, 0 0);
-        clip-path: polygon(54% 0, 100% 73%, 100% 100%, 0 100%, 0 0);
-        background-color: black;  /* For browsers that do not support gradients */
-          background-image: linear-gradient(to top right,#000,#222629); /* Standard syntax (must be last) */
-          /*background-image: url("image2.jpg");*/
-    }
-    @media screen and (max-width:540px){
-        .embrace {
-      padding: 0em 0em;
-      font: normal 20px/25px 'Mada', sans-serif;
-      color: #999;
-      text-align:center;
-      margin-left:30%;
-      margin-top:39px;
-    }
-    .embrace b {
-      float: left;
-      text-align:center;
-      overflow: hidden;
-      position: relative;
-      height: 50px;
-    }
-    .embrace span1 {
-     display: inline-block;
-    color:red;
-    font-weight:900%;
-    position: relative;
-    white-space: nowrap;
-    top: 0;
-    left: 0;
-    -webkit-animation: move 3s;
-    -webkit-animation-iteration-count: infinite;
-    -webkit-animation-delay: 1s;
-    }
-    @keyframes move {
-    0%  { top: 0px; }
-    20% { top: -50px; }
-    40% { top: -100px; }
-    }
-    }
-    /* For Tablets */
-    @media screen and (max-width:1024px){
-        #highlight-full-screen{
-            -webkit-clip-path: polygon(0 0, 100% 0%, 100% 100%, 41% 100%, 0% 50%);
-            clip-path: polygon(0 0, 100% 0%, 100% 100%, 41% 100%, 0% 50%);
-        }
-        #team-full-screen{
-            -webkit-clip-path: polygon(41% 0, 100% 0, 100% 100%, 0 100%, 0 50%);
-            clip-path: polygon(41% 0, 100% 0, 100% 100%, 0 100%, 0 50%);
-        }
-    }
-    /* This only works with JavaScript, if it's not present, don't show loader */
-    .no-js #loader { display: none;  }
-    .js #loader { display: block; position: absolute; left: 100px; top: 0; }
-    .se-pre-con {
-        position: fixed;
-        left: 0px;
-        top: 0px;
-        width: 100%;
-        height: 100%;
-        z-index: 9999;
-        background: url(img/Preloader1.gif) center no-repeat #fff;
-    }
-</style>
 <body>
     <div class="container-fluid"> 
       <section class="main">   
@@ -256,25 +30,22 @@
         </div>  
        </section>  
         <div class="banner">
-                <img src="images/logop.png" class="logo">   
+                <img src="images/logo.png" class="logo">   
             <video autoplay muted loop>
                 <source src="bg2.mp4" type="video/mp4">
             </video>
-            <div class="row">
-            <h1 class="parakram">PARAKRAM '19 </h1>
-            <h2>4-5<sup>th</sup> OCTOBER</h2>
+            <div class="row"> 
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br> 
+            <h2 style="font-size: 330%">4-5<sup>th</sup> OCTOBER</h2>
             <p class="desc"> THE LEADING SPORT FEST OF JUIT
-            <div class="embrace" id="sponsors">
-                    <b>
-                          <span1>
-                            GAME<br/>
-                            LIES<br/>
-                            WITHIN
-                            </span1>
-                        </b>
-                </div>
-                </p>
-                          </div>
+            <p class="desc">GAME | LIES | WITHIN</p>
+            <center><a class="btn btn-raised btn-danger" id="formb" style="margin-top: -5px;">Registrations Open</a></center>
+         </div>
         </div> 
       </div> 
 </body>
