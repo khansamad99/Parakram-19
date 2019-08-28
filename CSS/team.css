@@ -338,10 +338,10 @@ main li .container{
 	overflow: hidden;
 }
 .pt1{
-	margin-left: 24%;
+	margin-right: 5%;
 }
 #pt2{
-	margin-left:30%;
+	margin-right:0%;
 }
 #team .thumb img{
 	border-radius: 2px;
@@ -478,12 +478,12 @@ main li .container{
 	}
 	.pt1{
 		z-index: 100;
-		width:80%;
+		width:50%;
 		height:auto;
-		margin-left: 34%;
+		margin-left: 3%;
 	}
 	#pt2{
-		margin-left:38%;
+		margin-left:30%;
 	}
 	.sidebar{
 		left: 3%;

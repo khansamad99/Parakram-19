@@ -65,14 +65,7 @@ body{
 	  height: 0%;
 	}
   }
-.back{
-    height:100%;
-	background-size:cover;
-	background-repeat: no-repeat;
-    background-attachment: fixed;
-   background-position: center; 
 
-}
 .team{
 	background-color:rgb(216, 33, 33);
 }
@@ -179,6 +172,7 @@ img {
 	border-radius: 2px;
 }
 .navbar li{
+	left:-40px;
 	color: white;
 	cursor: pointer;
 }
@@ -419,6 +413,7 @@ form{
 		margin: 0;
 	}
 	.navbar li{
+		left:-8px;
 		position: relative;
 		float: left;
 	}
