@@ -5,6 +5,66 @@ body{
 	
 	
 }
+.loader {
+	display: inline-block;
+	width: 30px;
+	height: 30px;
+	position: relative;
+	border: 4px solid #Fff;
+	top: 50%;
+  }
+  
+  .loader-inner {
+	vertical-align: top;
+	display: inline-block;
+	width: 100%;
+	background-color: #fff;
+	animation: loader-inner 2s infinite ease-in;
+  }
+  
+  @keyframes loader {
+	0% {
+	  transform: rotate(0deg);
+	}
+	
+	25% {
+	  transform: rotate(180deg);
+	}
+	
+	50% {
+	  transform: rotate(180deg);
+	}
+	
+	75% {
+	  transform: rotate(360deg);
+	}
+	
+	100% {
+	  transform: rotate(360deg);
+	}
+  }
+  
+  @keyframes loader-inner {
+	0% {
+	  height: 0%;
+	}
+	
+	25% {
+	  height: 0%;
+	}
+	
+	50% {
+	  height: 100%;
+	}
+	
+	75% {
+	  height: 100%;
+	}
+	
+	100% {
+	  height: 0%;
+	}
+  }
 .back{
     height:100%;
 	background-size:cover;
@@ -260,13 +320,7 @@ legend{
 	margin-bottom: 0px;
 	padding-right: 2%;
 }
-#form-loader{
-	position: fixed;
-	display: none;
-	z-index: 14000;
-	top: 38%;
-	left: 43%;
-}
+
 .udaan a{
 	background: none;
 	animation: none;
@@ -359,20 +413,6 @@ form{
 	text-shadow: none;
 }
 /* page loader */
-#loader-wrapper{
-	position: fixed;
-	top: 0;
-	left: 0;
-	right: 0;
-	bottom: 0;
-	background-color: #192B33;
-	z-index: 9999;
-}
-#loader{
-	position: absolute;
-	left: 44%;
-	top: 40%;
-}
 /* mobile css */ 
 @media screen and (max-width: 540px){
 	.navbar-nav{
@@ -501,17 +541,6 @@ form{
 		font-size: 2em;
 		padding-top: 3%;
 		margin-bottom: 3%;
-	}
-	#form-loader{
-		top: 25%;
-		left: 23%;
-	}
-	#loader{
-		left: 38%;
-		top: 45%;
-	}
-	#loader img{
-		width: 45%;
 	}
 	.alert{
 		width: 70%;

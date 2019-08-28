@@ -11,7 +11,6 @@ text-decoration: underline;
 }
 #section1{
 	vertical-align: middle !important;
-	
 	font-family: 'Cinzel', serif;
 	text-align: center;
 	color: #333;
@@ -24,7 +23,7 @@ text-decoration: underline;
 	margin:0 0 4% 0;
 	transform-style: preserve-3d;
 	background-image: url('img/JUIT1.jpg');
-	padding: 12% 0;
+	padding: 2% 0;
 	text-align: center;
 	border-radius: 4px;
 	transform: translateZ(20px);
@@ -75,4 +74,9 @@ text-decoration: underline;
 	text-align: center;
 	text-transform: uppercase;
 	color: #D7D6D6;
+}
+@media screen and (max-width: 540px){
+	.conatainer1{
+		margin-top: 0px;
+	}
 }

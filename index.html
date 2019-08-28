@@ -15,10 +15,9 @@
     <title>Parakram</title>
 </head>
 <body>
-        <!-- <div id="loader-wrapper">
-                <div id="loader"><img src="images/l" width="80%" height="auto"></div>
-            </div> -->
+        
     <div class="container-fluid"> 
+        
       <section class="main">   
         <div class="outerd">
             <div class="navbar navbar-default">
@@ -52,10 +51,10 @@
         </div> 
       </div> 
       <script>
-          $(window).load(function() {
-        $(".loader").fadeOut("slow");
-});
+         $(window).on("load",function(){
+     $(".loader-wrapper").fadeOut("slow");
+});</script>
 <script src="https://code.jquery.com/jquery-1.9.1.min.js"></script>
-</script>
+
 </body>
 </html>
