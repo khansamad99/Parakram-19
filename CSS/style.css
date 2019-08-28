@@ -429,6 +429,9 @@ form{
 		color:red;
 		z-index:95;
 	}
+	.date{
+		margin-top: -30px;
+	}
 	.desc{
 	 margin-bottom:5%;
 	 font-size:100%;
