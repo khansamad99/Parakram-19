@@ -1,3 +1,6 @@
+.body{
+	background-image: url('images/back1.jpg')
+}
 .cont{
 	margin: 1em;
     transform-style: preserve-3d;
@@ -8,7 +11,7 @@
 	padding: 20px 20px 20px 20px;
 }
 .conatiner1{
-	
+	margin-top:10px;
 	max-height:1000px;
 }
 butt:hover{
@@ -20,7 +23,7 @@ text-decoration: underline;
 	font-family: 'Cinzel', serif;
 	text-align: center;
 	color: #333;
-	margin-top: 0;
+	margin-top: -100;
 	margin-bottom: 2%;
 	z-index: 7000;
 	position: relative;
@@ -39,8 +42,8 @@ text-decoration: underline;
 	font-family: 'Cinzel', serif;
 	color: #D7D6D6 !important;
 	vertical-align: top;
-	margin-top: 1%;
-	padding: 0.4%;
+	margin-top: 100%;
+	padding: 0%;
 	color: #D7D6D6;
 	font-size: 1.06em;
 	border-radius: 2px;
