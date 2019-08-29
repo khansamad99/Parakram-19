@@ -1,33 +1,34 @@
-
-.container1{
-	margin-top:5px;
-}
 .cont{
+	margin: 1em;
     transform-style: preserve-3d;
 	background: linear-gradient(to bottom, rgba(255, 174, 0, 0.7), rgba(238, 255, 0, 0.7));
 	padding: 12% 0;
 	text-align: center;
 	border-radius: 4px;
 	padding: 20px 20px 20px 20px;
-	margin-top:1px;
 }
-
+.conatiner1{
+	
+	max-height:1000px;
+}
+butt:hover{
+text-decoration: underline;
+}
 #section1{
 	vertical-align: middle !important;
-	
+	overflow-y:hidden;
 	font-family: 'Cinzel', serif;
 	text-align: center;
 	color: #333;
 	margin-top: 0;
 	margin-bottom: 2%;
-	width: 80%;
 	z-index: 7000;
 	position: relative;
 	padding:0;
 	margin:0 0 4% 0;
 	transform-style: preserve-3d;
-	background-image: url('img/JUIT1.jpg');
-	padding: 12% 0;
+	background-image: url('img/JUIT.jpg');
+	padding: 7% 0;
 	text-align: center;
 	border-radius: 4px;
 	transform: translateZ(20px);
@@ -49,8 +50,7 @@
 	font-family: 'Cinzel', serif;
 	font-size: 1.16em;
 	font-weight: bold;
-	color: #79B473;
-
+	color: #79B473;	
 	border-collapse: collapse;
 	text-align: center;
 	transition: all 0.3s;
@@ -67,7 +67,6 @@
 	font-size: 9px;
 	padding: 2px;
 	font-size: 10px;
-	margin: 0;
 	padding: 0.2%;
 	overflow: scroll;
 	padding-left: 6%;

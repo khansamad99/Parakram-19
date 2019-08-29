@@ -338,10 +338,11 @@ main li .container{
 	overflow: hidden;
 }
 .pt1{
-	margin-right: 5%;
+	margin-right: 15%;
 }
 #pt2{
-	margin-right:0%;
+	
+	margin-left: 30%;
 }
 #team .thumb img{
 	border-radius: 2px;
@@ -355,6 +356,7 @@ main li .container{
 	filter: saturate(100%);
 }
 #team .text{
+	
 	padding-top: 6px;
 	color: #e3dddd;
 	font-size: 2.15em;
@@ -483,7 +485,7 @@ main li .container{
 		margin-left: 3%;
 	}
 	#pt2{
-		margin-left:30%;
+		margin-left:20%;
 	}
 	.sidebar{
 		left: 3%;
