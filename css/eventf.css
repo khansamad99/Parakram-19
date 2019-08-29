@@ -1,7 +1,13 @@
+body {
+	background-size: cover;
+	background-image: url('img/JUIT1.jpg');
+	overflow-y: hidden;
+}
+
 .cont{
+	margin:1em;
     transform-style: preserve-3d;
 	background: linear-gradient(to bottom, rgba(255, 174, 0, 0.7), rgba(238, 255, 0, 0.7));
-	padding: 12% 0;
 	text-align: center;
 	border-radius: 4px;
 	padding: 30px 30px 30px 30px;
@@ -16,13 +22,12 @@ text-decoration: underline;
 	color: #333;
 	margin-top: 0;
 	margin-bottom: 2%;
-	width: 80%;
 	z-index: 7000;
 	position: relative;
 	padding:0;
 	margin:0 0 4% 0;
 	transform-style: preserve-3d;
-	background-image: url('img/JUIT1.jpg');
+	
 	padding: 2% 0;
 	text-align: center;
 	border-radius: 4px;
@@ -64,10 +69,10 @@ text-decoration: underline;
 	font-size: 10px;
 	margin: 0;
 	padding: 0.2%;
-	overflow: scroll;
+	overflow: hidden;
 	padding-left: 6%;
 	font-size: 1em;
-	
+	background-size: cover;
 }
 #eve-name{
 	margin-top: 1%;
