@@ -2,6 +2,7 @@ body{
     font-family: 'Montserrat', sans-serif;
     margin:0;
 	padding: 0;
+	
 	}
 .loader {
 	display: inline-block;
@@ -85,12 +86,12 @@ h2{
 }
 .banner{
     width: 100%;
-    height:100vh;
+    height:75vh;
     overflow:hidden;
     display: flex;
     justify-content: center;
     align-items: center;
-   
+	
     
 }
 .banner video{
@@ -448,10 +449,10 @@ form{
 	}
 	.logo{
 		position:absolute;
-		height: 40vw;
-		width:50%;
+		height: 50vw;
+		width:60%;
 		top:150px;
-		left:90px;
+		left:80px;
 	}
 	.parakram{
 		margin-bottom:20%;
@@ -477,12 +478,12 @@ form{
 	}
 	.banner{
 		width: 100%;
-		height:100vh;
+		height:80vh;
 		overflow:hidden;
 		display: flex;
 		justify-content: center;
 		align-items: center;
-	   
+		
 		
 	}
 	.banner video{
